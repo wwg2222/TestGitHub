@@ -12,5 +12,7 @@ namespace MathLibrary
         {
             return x + y;
         }
+
+        public int Multipy(int x, int y)
     }
 }
