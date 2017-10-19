@@ -14,5 +14,8 @@ namespace MathLibrary
         }
 
         public int Multipy(int x, int y)
+        {
+            return x*y;
+        }
     }
 }
