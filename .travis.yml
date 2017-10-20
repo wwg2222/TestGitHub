@@ -5,4 +5,4 @@ install:
     - nuget install xunit.runners -OutputDirectory testrunner
 script:
     - xbuild /p:Configuration=Release MathLibrary.sln
-    - mono ./testrunner/xunit.runners.*/tools/xunit.console.clr4.exe ./MathLibrary/bin/Release/MathLibrary.dll 
+    - mono ./testrunner/xunit.runners.*/tools/xunit.console.exe ./MathLibrary/bin/Release/MathLibrary.dll 
